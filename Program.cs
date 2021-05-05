@@ -23,14 +23,15 @@ namespace Divisao
             Console.WriteLine();
             Console.ResetColor();
 
-            valor3 = valor1 / valor2;
             
-            if(valor2 > 0)
+            
+            if(valor2 != 0)
             {
+                valor3 = valor1 / valor2;
+                
                 Console.WriteLine($"{valor1} dividido por {valor2} é = {valor3}");
                 Console.WriteLine();
                 Console.ResetColor();
-
             }
             else
             {
